@@ -17,27 +17,22 @@ NumPy
 
 # Installation
 # 1.Clone the repository:
-'''bash
 git clone https://github.com/your-username/Tensorflow-Face-Recognition.git
 cd Tensorflow-Face-Recognition
 
 # 2.Create and activate a virtual environment:
-'''bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # 3.Download and place the necessary models and resources:
-'''bash
 Place the haarcascade_frontalface_default.xml file in the root directory.
 Ensure the keras_model.h5 file is in the root directory.
 
 # 4.Running the Project
 Activate the virtual environment (if not already activated):
-'''bash
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # 5.Run the face recognition script:
-'''bash
 python test.py
 Press q to exit the webcam feed.
 
