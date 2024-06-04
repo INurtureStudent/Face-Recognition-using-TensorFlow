@@ -22,7 +22,8 @@ cd Tensorflow-Face-Recognition
 
 # 2.Create and activate a virtual environment:
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
+On Windows: venv\Scripts\activate
 
 # 3.Download and place the necessary models and resources:
 Place the haarcascade_frontalface_default.xml file in the root directory.
