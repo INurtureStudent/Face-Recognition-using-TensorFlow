@@ -1,6 +1,6 @@
 # Face-Recognition-using-TensorFlow
 # Description
-This project implements a real-time face recognition system using TensorFlow and OpenCV. The system utilizes a pre-trained convolutional neural network (CNN) model to identify and recognize faces from a live webcam feed. This repository contains all the necessary code, model, and resources to set up and run the face recognition system on your local machine.
+This project implements a real-time face recognition system using TensorFlow and OpenCV. The system utilizes a pre-trained haarcascade model to identify and recognize faces in real-time. This repository contains all the necessary code, model, and resources to set up and run the face recognition system on your local machine.
 
 # Features
 Real-Time Face Detection: Detects faces in real-time using OpenCV's Haar Cascade Classifier.
@@ -9,11 +9,11 @@ Webcam Integration: Captures live video feed from the webcam for real-time face 
 User-Friendly Interface: Displays the recognition results directly on the webcam feed with bounding boxes and labels.
 
 # Getting Started
-Prerequisites
-Python 3.x
-TensorFlow
-OpenCV
-NumPy
+ Prerequisites
+ Python 3.x
+ TensorFlow
+ OpenCV
+ NumPy
 
 # Installation
 # 1.Clone the repository:
@@ -37,11 +37,3 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 python test.py
 Press q to exit the webcam feed.
 
-# Usage
-Face Detection: The system detects faces in the webcam feed and draws bounding boxes around them.
-Face Recognition: The system classifies detected faces into predefined categories (e.g., "Yash", "Tony Stark") and displays the labels with confidence scores.
-Project Structure
-test.py: Main script to run the face recognition system.
-haarcascade_frontalface_default.xml: Haar Cascade model for face detection.
-keras_model.h5: Pre-trained Keras model for face recognition.
-requirements.txt: List of required Python packages.
