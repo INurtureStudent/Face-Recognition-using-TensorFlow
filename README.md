@@ -17,7 +17,7 @@ User-Friendly Interface: Displays the recognition results directly on the webcam
 
 # Installation
 # 1.Clone the repository:
-git clone https://github.com/yashshekh/Tensorflow-Face-Recognition.git
+git clone https://github.com/yashshekh/Face-Recognition-using-TensorFlow.git
 cd Tensorflow-Face-Recognition
 
 # 2.Create and activate a virtual environment:
